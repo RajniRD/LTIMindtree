@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Javascript001,Chrome 113.0.0.0,,,2023-05-03 17:49:03,2023-05-03 17:49:28,24.513s,PASSED
+,,,,,,,
+Test Cases/JavaScriptWait,Chrome 113.0.0.0,,,2023-05-03 17:49:04,2023-05-03 17:49:28,23.808s,PASSED
+"openBrowser(""http://www.themazerunner.com.au/"")",Chrome 113.0.0.0,,,2023-05-03 17:49:05,2023-05-03 17:49:21,15.765s,PASSED
+"s = ""window.onload = function() {}""",Chrome 113.0.0.0,,,2023-05-03 17:49:21,2023-05-03 17:49:21,0.002s,PASSED
+"executeJavaScript(s, null)",Chrome 113.0.0.0,,,2023-05-03 17:49:21,2023-05-03 17:49:24,2.862s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-03 17:49:24,2023-05-03 17:49:28,4.372s,PASSED

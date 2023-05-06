@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FrameHandlingSuite001,Windows - IE 11,,,2023-05-04 00:50:27,2023-05-04 00:52:01,1m - 33.239s,PASSED
+,,,,,,,
+Test Cases/W3School/FramHandling,Windows - IE 11,,,2023-05-04 00:50:28,2023-05-04 00:52:01,1m - 32.563s,PASSED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Windows - IE 11,,,2023-05-04 00:50:29,2023-05-04 00:51:40,1m - 10.903s,PASSED
+maximizeWindow(),Windows - IE 11,,,2023-05-04 00:51:40,2023-05-04 00:51:41,1.013s,PASSED
+"click(findTestObject(""Object Repository/W3School/PromptButton""))",Windows - IE 11,,,2023-05-04 00:51:41,2023-05-04 00:51:52,10.966s,PASSED
+delay(2),Windows - IE 11,,,2023-05-04 00:51:52,2023-05-04 00:51:54,2.069s,PASSED
+switchToWindowIndex(1),Windows - IE 11,,,2023-05-04 00:51:54,2023-05-04 00:51:55,1.338s,PASSED
+"switchToFrame(findTestObject(""Object Repository/W3School/TryItButtonFrame""), 3)",Windows - IE 11,,,2023-05-04 00:51:55,2023-05-04 00:51:58,2.541s,PASSED
+switchToWindowIndex(0),Windows - IE 11,,,2023-05-04 00:51:58,2023-05-04 00:51:59,1.674s,PASSED
+closeBrowser(),Windows - IE 11,,,2023-05-04 00:51:59,2023-05-04 00:52:01,1.154s,PASSED

@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Multiple_window_TestSuite,Chrome 113.0.0.0,,,2023-05-07 00:28:48,2023-05-07 00:31:34,2m - 46.037s,FAILED
+,,,,,,,
+Test Cases/multipleWindowHandler/handleWindow_001,Chrome 113.0.0.0,,,2023-05-07 00:29:42,2023-05-07 00:29:56,14.761s,FAILED
+"openBrowser(""https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_iframe_create"")",Chrome 113.0.0.0,,,2023-05-07 00:29:42,2023-05-07 00:29:49,7.341s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-07 00:29:49,2023-05-07 00:29:55,6.341s,PASSED
+waitForPageLoad(TimeOut),Chrome 113.0.0.0,,,2023-05-07 00:29:55,2023-05-07 00:29:55,0.027s,PASSED
+"waitForElementVisible(findTestObject(""W3School/HomeBtn""), TimeOut)",Chrome 113.0.0.0,,,2023-05-07 00:29:55,2023-05-07 00:29:56,0.817s,PASSED
+"click(findTestObject(""W3School/TryItButtonWithFrame""))",Chrome 113.0.0.0,,,2023-05-07 00:29:56,2023-05-07 00:29:56,0.220s,FAILED
+,,,,,,,
+Test Cases/multipleWindowHandler/handleWindow_002,Chrome 113.0.0.0,,,2023-05-07 00:31:06,2023-05-07 00:31:34,28.224s,FAILED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 113.0.0.0,,,2023-05-07 00:31:06,2023-05-07 00:31:33,27.198s,PASSED
+waitForPageLoad(TimeOut),Chrome 113.0.0.0,,,2023-05-07 00:31:33,2023-05-07 00:31:33,0.032s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-07 00:31:33,2023-05-07 00:31:33,0.169s,PASSED
+"click(findTestObject(""W3School/TryItBtn""))",Chrome 113.0.0.0,,,2023-05-07 00:31:33,2023-05-07 00:31:34,0.797s,FAILED

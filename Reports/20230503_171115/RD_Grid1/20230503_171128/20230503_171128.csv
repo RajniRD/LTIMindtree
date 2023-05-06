@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RD_Grid1,Chrome 113.0.0.0,,,2023-05-03 17:11:41,2023-05-03 17:16:12,4m - 31.269s,PASSED
+,,,,,,,
+Test Cases/TableGrid1,Chrome 113.0.0.0,,,2023-05-03 17:11:41,2023-05-03 17:16:12,4m - 30.481s,PASSED
+"openBrowser(""https://www.w3schools.com/html/html_tables.asp"")",Chrome 113.0.0.0,,,2023-05-03 17:11:42,2023-05-03 17:16:02,4m - 19.533s,PASSED
+delay(5),Chrome 113.0.0.0,,,2023-05-03 17:16:02,2023-05-03 17:16:07,5.159s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-03 17:16:07,2023-05-03 17:16:07,0.462s,PASSED
+"rowTwoVariable = getText(findTestObject(""WebTableTestObject/rowobject""))",Chrome 113.0.0.0,,,2023-05-03 17:16:07,2023-05-03 17:16:09,1.550s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-03 17:16:09,2023-05-03 17:16:11,2.006s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-03 17:16:11,2023-05-03 17:16:12,1.175s,PASSED

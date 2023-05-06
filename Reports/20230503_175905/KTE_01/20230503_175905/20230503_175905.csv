@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KTE_01,Windows - IE 11,,,2023-05-03 17:59:18,2023-05-03 18:07:20,8m - 1.757s,FAILED
+,,,,,,,
+Test Cases/TC_KTE,Windows - IE 11,,,2023-05-03 18:05:15,2023-05-03 18:07:20,2m - 5.270s,FAILED
+"openBrowser("""")",Windows - IE 11,,,2023-05-03 18:05:15,2023-05-03 18:06:27,1m - 12.585s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Windows - IE 11,,,2023-05-03 18:06:27,2023-05-03 18:06:28,1.222s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Windows - IE 11,,,2023-05-03 18:06:28,2023-05-03 18:06:32,3.268s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Windows - IE 11,,,2023-05-03 18:06:32,2023-05-03 18:07:20,48.177s,FAILED

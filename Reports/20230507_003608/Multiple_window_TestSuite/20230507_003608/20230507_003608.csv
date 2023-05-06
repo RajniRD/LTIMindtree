@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Multiple_window_TestSuite,Chrome 113.0.0.0,,,2023-05-07 00:36:21,2023-05-07 00:40:37,4m - 16.276s,FAILED
+,,,,,,,
+Test Cases/multipleWindowHandler/handleWindow_001,Chrome 113.0.0.0,,,2023-05-07 00:39:15,2023-05-07 00:40:07,51.436s,FAILED
+"openBrowser(""https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_iframe_create"")",Chrome 113.0.0.0,,,2023-05-07 00:39:15,2023-05-07 00:39:32,17.058s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-07 00:39:32,2023-05-07 00:39:33,0.189s,PASSED
+waitForPageLoad(TimeOut),Chrome 113.0.0.0,,,2023-05-07 00:39:33,2023-05-07 00:39:33,0.026s,PASSED
+"waitForElementVisible(findTestObject(""W3School/HomeBtn""), TimeOut)",Chrome 113.0.0.0,,,2023-05-07 00:39:33,2023-05-07 00:39:33,0.489s,PASSED
+"click(findTestObject(""W3School/TryItButtonWithFrame""))",Chrome 113.0.0.0,,,2023-05-07 00:39:33,2023-05-07 00:40:07,33.646s,FAILED
+,,,,,,,
+Test Cases/multipleWindowHandler/handleWindow_002,Chrome 113.0.0.0,,,2023-05-07 00:40:07,2023-05-07 00:40:37,30.154s,PASSED
+"openBrowser(""https://www.w3schools.com/js/js_popup.asp"")",Chrome 113.0.0.0,,,2023-05-07 00:40:08,2023-05-07 00:40:27,19.673s,PASSED
+waitForPageLoad(TimeOut),Chrome 113.0.0.0,,,2023-05-07 00:40:27,2023-05-07 00:40:27,0.028s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-07 00:40:27,2023-05-07 00:40:28,0.174s,PASSED
+"click(findTestObject(""W3School/TryItBtn""))",Chrome 113.0.0.0,,,2023-05-07 00:40:28,2023-05-07 00:40:31,3.214s,PASSED
+delay(1),Chrome 113.0.0.0,,,2023-05-07 00:40:31,2023-05-07 00:40:32,1.136s,PASSED
+switchToWindowIndex(1),Chrome 113.0.0.0,,,2023-05-07 00:40:32,2023-05-07 00:40:32,0.084s,PASSED
+"switchToFrame(findTestObject(""W3School/TryItButtonFrame""), TimeOut)",Chrome 113.0.0.0,,,2023-05-07 00:40:32,2023-05-07 00:40:35,2.823s,PASSED
+"waitForElementVisible(findTestObject(""W3School/TryButton""), TimeOut)",Chrome 113.0.0.0,,,2023-05-07 00:40:35,2023-05-07 00:40:36,1.265s,PASSED
+switchToDefaultContent(),Chrome 113.0.0.0,,,2023-05-07 00:40:36,2023-05-07 00:40:36,0.048s,PASSED
+"click(findTestObject(""W3School/HomeBtn""))",Chrome 113.0.0.0,,,2023-05-07 00:40:36,2023-05-07 00:40:37,0.788s,PASSED

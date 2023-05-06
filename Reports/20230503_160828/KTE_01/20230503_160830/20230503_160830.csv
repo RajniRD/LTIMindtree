@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KTE_01,,,,2023-05-03 16:08:44,2023-05-03 16:08:54,10.232s,FAILED
+,,,,,,,
+Test Cases/TC_KTE,,,,2023-05-03 16:08:45,2023-05-03 16:08:54,9.380s,FAILED
+"openBrowser("""")",,,,2023-05-03 16:08:46,2023-05-03 16:08:54,8.440s,FAILED
