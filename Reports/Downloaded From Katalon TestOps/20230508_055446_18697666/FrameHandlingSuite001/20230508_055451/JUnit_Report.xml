@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FrameHandlingSuite001" time="45.174" tests="1" failures="0" errors="0">
+   <testsuite name="FrameHandlingSuite001" tests="1" failures="0" errors="0" time="45.174" skipped="0" timestamp="2023-05-08 05:55:06" hostname="Administrator - DESKTOP-B8148C9" id="Test Suites/FrameHandlingSuite001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\selenium\\tmp\\2023.05.08-5.53--7120-57H2RFJaVYxk-1304029\\LTIMindtree.git\\Reports\\20230508_055446\\FrameHandlingSuite001\\20230508_055451"/>
+         <property name="logFiles" value="C:\\selenium\\tmp\\2023.05.08-5.53--7120-57H2RFJaVYxk-1304029\\LTIMindtree.git\\Reports\\20230508_055446\\FrameHandlingSuite001\\20230508_055451\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - DESKTOP-B8148C9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="44de6d5cae911f139d7ccc7ad767804f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/W3School/FramHandling" time="44.456" classname="Test Cases/W3School/FramHandling" status="PASSED">
+         <system-out><![CDATA[2023-05-08 05:55:07 - [TEST_CASE][PASSED] - Test Cases/W3School/FramHandling: Test Cases/W3School/FramHandling
+
+2023-05-08 05:55:08 - [TEST_STEP][PASSED] - openBrowser("https://www.w3schools.com/js/js_popup.asp"): Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2023-05-08 05:55:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-08 05:55:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-08 05:55:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.w3schools.com/js/js_popup.asp'
+
+2023-05-08 05:55:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-05-08 05:55:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-08 05:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/W3School/PromptButton")): Object: 'Object Repository/W3School/PromptButton' is clicked on
+
+2023-05-08 05:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/W3School/PromptButton' is clicked on
+
+2023-05-08 05:55:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-08 05:55:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-08 05:55:47 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-05-08 05:55:47 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-05-08 05:55:47 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/W3School/TryItButtonFrame"), 3): null
+
+2023-05-08 05:55:50 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-05-08 05:55:50 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-05-08 05:55:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-05-08 05:55:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-08 05:55:06 - [TEST_SUITE][PASSED] - FrameHandlingSuite001: Test Cases/W3School/FramHandling]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
