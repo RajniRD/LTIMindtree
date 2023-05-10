@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KeyboardACtion,Chrome 113.0.0.0,,,2023-05-09 00:48:57,2023-05-09 00:49:27,29.989s,PASSED
+,,,,,,,
+Test Cases/KeyboardAction/Action1,Chrome 113.0.0.0,,,2023-05-09 00:48:58,2023-05-09 00:49:27,29.044s,PASSED
+"openBrowser(""http://demos.telerik.com/aspnet-ajax/textbox/overview/defaultcs.aspx"")",Chrome 113.0.0.0,,,2023-05-09 00:49:00,2023-05-09 00:49:19,19.176s,PASSED
+waitForPageLoad(TimeOut),Chrome 113.0.0.0,,,2023-05-09 00:49:19,2023-05-09 00:49:22,3.414s,PASSED
+maximizeWindow(),Chrome 113.0.0.0,,,2023-05-09 00:49:22,2023-05-09 00:49:22,0.368s,PASSED
+"waitForElementVisible(findTestObject(""TelerikWebElemet/TextArea""), TimeOut)",Chrome 113.0.0.0,,,2023-05-09 00:49:22,2023-05-09 00:49:23,0.981s,PASSED
+"sendKeys(findTestObject(""TelerikWebElemet/TextArea""), Keys.chord(SHIFT, ""hi from Rajni""))",Chrome 113.0.0.0,,,2023-05-09 00:49:23,2023-05-09 00:49:24,0.777s,PASSED
+delay(2),Chrome 113.0.0.0,,,2023-05-09 00:49:24,2023-05-09 00:49:26,2.099s,PASSED
+closeBrowser(),Chrome 113.0.0.0,,,2023-05-09 00:49:26,2023-05-09 00:49:27,0.954s,PASSED
